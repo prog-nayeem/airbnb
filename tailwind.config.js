@@ -5,6 +5,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+     screens: {
+        xs: "450px",
+      },
       colors: {
         airbnb: "#f87171",
         button: "#6f019c",

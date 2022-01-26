@@ -4,6 +4,8 @@ import Navbar from "../components/Navbar";
 import Map from "../components/Map";
 import dateFormat from "dateformat";
 import { useRouter } from "next/router";
+import SigninModel from "../components/SinginModel";
+import Alert from "../components/Alert";
 
 const Place = ({ res }) => {
   const router = useRouter();
@@ -20,6 +22,8 @@ const Place = ({ res }) => {
         placeholder={`${location} | ${formateStartDate} - ${formateEndDate}`}
         guest={totalGuest}
       />
+       <SigninModel />
+        <Alert />
       <div className="w-100% min-h-screen px-12">
         <main className="mt-40 md:mt-36 relative grid grid-flow-col lg:grid-cols-3 xl:grid-cols-2 space-x-6">
           {/* place and map component here */}

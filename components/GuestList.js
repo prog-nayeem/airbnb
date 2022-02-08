@@ -42,7 +42,7 @@ const GuestList = () => {
           },
         }}
       >
-        <MenuItem className="flex w-full justify-between items-center">
+        <MenuItem className="flex w-full !justify-between items-center">
           <div>
             <h2 className="font-semibold">Adults</h2>
             <p className="text-sm">Ages 12 or above</p>
@@ -57,7 +57,7 @@ const GuestList = () => {
             />
           </div>
         </MenuItem>
-        <MenuItem className="flex w-full justify-between items-center">
+        <MenuItem className="flex w-full !justify-between items-center">
           <div>
             <h2 className="font-semibold">Children</h2>
             <p className="text-sm">Ages 2-12</p>
@@ -72,7 +72,7 @@ const GuestList = () => {
             />
           </div>
         </MenuItem>
-        <MenuItem className="flex w-full justify-between items-center">
+        <MenuItem className="flex w-full !justify-between items-center">
           <div>
             <h2 className="font-semibold">Infants</h2>
             <p className="text-sm">Under 2</p>
